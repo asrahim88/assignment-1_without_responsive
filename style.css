@@ -290,22 +290,7 @@
 .text_area:focus{
     border-bottom: 2px solid #1c87c9;
 }
-/* .sendBtn {
-    width: 150px;
-    height: 50px;
-    padding: 5px;
-    margin: 0px 0px 20px 20px;
-    outline: none;
-    border: 2px solid #85c4eb9a;
-    color: #828282;
-} */
-.sendBtn:hover {
-    /* cursor: pointer;
-    transform: scale(1.1);
-    background-color: red; */
-}
 
-/* testing */
 
 .sendBtn {
     color: #828282;
@@ -327,16 +312,6 @@
     box-shadow: inset 400px 0 0 0 #85c4eb9a;
     color: #FFFFFF;
   }
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
 .footer_sec {
