@@ -109,6 +109,7 @@
     font-size: 18px;
     line-height: 25px;
     text-align: center;
+    color: #575757;
 }
 .recipe_box {
     display: flex;
