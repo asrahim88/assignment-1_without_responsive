@@ -3,96 +3,124 @@
     margin: 0;
     padding: 0;
 }
+
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
+
 .skip {
     background-color: #f3ec78;
     background-image: linear-gradient(45deg, #FBA24F, #FF1E1E);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
 .header_title {
     color: #575757;
-    font-size: 60px;
+    font-size: 40px;
 }
+
 .header_details {
     color: #828282;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 32px;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 35px;
 }
+
 .order_btn {
-    width: 192px;
-    height: 68px;
+    width: 130px;
+    height: 48px;
     border-radius: 100px;
     padding: 24px, 32px, 24px, 32px;
-    background-image: linear-gradient(to right, #FBA24F , #FF1E1E);
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 130%;
+    font-size: 13px;
+    line-height: 100%;
     color: #FFFFFF;
     border: none;
     cursor: pointer;
     margin-top: 25px;
 }
+
 .padding_bottom {
     margin-bottom: 80px;
 }
+
 .half_width {
     width: 50%;
     float: left;
 }
+
 .header_desc {
-    margin-top: 220px;
+    margin-top: 293px;
 }
+
 .header_img_box {
     width: 97%;
 }
+
 .header_img_box img {
     width: 100%;
     margin-left: 10%;
     margin-top: 20px;
 }
 
+
 /* about section */
+
 .about_img_box {
     width: 75%;
 }
+
 .about_img_box img {
     width: 100%;
 }
+
 .about_heading {
     font-size: 40px;
     font-weight: bold;
     color: #707070;
 }
+
 .about_desc {
     font-size: 18px;
     line-height: 32px;
     color: #18191F;
+    text-align: left;
 }
+
 .about_box {
-    margin-top: 180px;
+    margin-top: 218px;
 }
+
 .about_bg {
     background-image: url(./images/7.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 50px;
 }
 
+
 /* about_recipe */
+
+.recipes_are {
+    background-color: rgba(0, 0, 0, 0.062);
+    margin-top: -80px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
 .about_recipe {
     width: 706px;
-    height: 159px;
     margin: auto;
 }
+
 .my_recipe {
     width: 529px;
     height: 60px;
@@ -101,44 +129,39 @@
     color: #676767;
     font-style: normal;
     font-weight: bold;
-    font-size : 36px;
+    font-size: 36px;
 }
+
 .about_info {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 30px;
     text-align: center;
     color: #575757;
 }
+
 .recipe_box {
     display: flex;
 }
-.recipe_cart {
-    padding: 10px;
-    margin: 15px;
-    height: 528px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    border-radius: 30px;
-}
+
 .cart_box {
     width: 30%;
     margin: auto;
 }
-.recipes_are {
-    background-color: rgba(0, 0, 0, 0.062);
-    margin-top: -80px;
-    padding-top: 60px;
-    padding-bottom: 50px;
+
+.recipe_cart {
+    padding: 10px;
+    margin: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
 }
-.img_box {
-    width: 315px;
-    height: 256px;
-}
+
 .img_box img {
     width: 100%;
 }
+
 .recipe_title {
     font-weight: 800;
     font-style: normal;
@@ -147,6 +170,7 @@
     margin: 10px 0;
     color: #18191F;
 }
+
 .cart_desc {
     font-style: normal;
     font-weight: normal;
@@ -155,114 +179,135 @@
     color: #18191F;
 }
 
+
 /* subscriber */
+
 .sub_section {
-    /* background-color: #ECECEC; */
     padding-top: 50px;
-    padding-bottom: 120px;
+    padding-bottom: 10px;
     background-color: black;
 }
+
 .total_sub_box {
     width: 90%;
-    height: 100px;
     margin: 30px;
     border-radius: 10px;
     padding: 20px;
-    -webkit-box-shadow: 0px 1px 6px -2px #ffffff; 
+    -webkit-box-shadow: 0px 1px 6px -2px #ffffff;
     box-shadow: 0px 1px 6px -2px #ffffff;
     display: flex;
     flex-wrap: nowrap;
     color: whitesmoke;
 }
+
 .sub_box {
     width: 30%;
     padding: 10px;
     height: 100px;
     text-align: center;
 }
+
 .sub_box h1 {
     margin-top: 10px;
 }
 
+
 /* review section */
+
 .quites_title {
-    font-size: 40px;
+    font-size: 60px;
     line-height: 50px;
     padding: 20px 0;
     text-align: center;
     color: #575757;
     font-weight: 700;
 }
+
 .review_section {
     padding-top: 20px;
     background-color: #78bdf536;
 }
+
 .review_img_box {
     width: 80px;
     height: 80px;
 }
+
 .review_img_box img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
+
 .total_review_box {
     width: 90%;
     margin: 20px auto;
     display: flex;
-    height: 550px;
 }
+
 .review_cart {
     width: 25%;
     padding: 25px;
     margin: 20px;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 1px 6px -2px #000000; 
+    -webkit-box-shadow: 0px 1px 6px -2px #000000;
     box-shadow: 0px 1px 6px -2px #000000;
-    height: 355px;
     transition: all 1s;
 }
+
 .review_cart:hover {
     transform: scale(1.1);
 }
+
 .reviewer {
     display: flex;
 }
+
 .review_info {
     margin: 20px 0 0 10px;
 }
+
 .review {
     margin-top: 20px;
 }
+
 .review h1 {
     font-size: 25px;
     padding: 0 0 10px 0;
     color: #575757;
 }
+
 .review p {
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
-    line-height: 25px;
+    font-size: 15px;
+    line-height: 30px;
     color: #828282;
-}
-.icon_box {
-    margin-top: 15px;
-    color:#FBA24F
+    text-align: justify;
 }
 
+.icon_box {
+    margin-top: 15px;
+    color: #FBA24F
+}
+
+
 /* contact */
+
 .form_section {
     background-color: #ECECEC;
     padding-top: 35px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
+
 .contact_img_box {
     width: 100%;
 }
-.contact_img_box  img {
+
+.contact_img_box img {
     width: 100%;
 }
+
 .from_input {
     width: 510px;
     height: 30px;
@@ -272,14 +317,15 @@
     border-radius: 15px;
     font-size: 18px;
     outline: none;
-    border:2px solid #78bdf536;
-
+    border: 2px solid #78bdf536;
 }
-.from_input:focus{
+
+.from_input:focus {
     border-bottom: 2px solid #1c87c9;
 }
+
 .text_area {
-    border:3px solid #78bdf536;
+    border: 3px solid #78bdf536;
     border-radius: 20px;
     padding: 10px;
     border-radius: 15px;
@@ -287,10 +333,10 @@
     margin: 15px;
     outline: none;
 }
-.text_area:focus{
+
+.text_area:focus {
     border-bottom: 2px solid #1c87c9;
 }
-
 
 .sendBtn {
     color: #828282;
@@ -305,20 +351,201 @@
     -webkit-transition: ease-out 1s;
     -moz-transition: ease-out 1s;
     transition: ease-out 1s;
+}
 
-  }
-
-  .slide_right:hover {
+.slide_right:hover {
     box-shadow: inset 400px 0 0 0 #85c4eb9a;
     color: #FFFFFF;
-  }
+}
+
 
 /* footer */
-.footer_sec {
-    background-color: black;
-    padding-bottom: 50px;
+
+footer {
+    margin-top: 50px;
 }
-footer h1, p {
+
+footer h1,
+p {
     text-align: center;
     color: whitesmoke;
+}
+
+.copy-right {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+
+/* mobile responsive */
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 95%;
+    }
+    .half_width {
+        width: 100%;
+    }
+    /* header start */
+    .header_desc {
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+    .header_title {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .header_details {
+        text-align: left;
+    }
+    .order_btn {
+        width: 120px;
+        height: 48px;
+        font-size: 15px;
+    }
+    .header_img_box img {
+        margin-left: 0;
+    }
+    /* about start */
+    .about_heading {
+        text-align: center;
+    }
+    .about_img_box img {
+        padding-top: 20px;
+        margin-left: 17%;
+    }
+    .about_box {
+        margin-top: 40px;
+        padding-left: 10px;
+    }
+    .about_desc {
+        text-align: left;
+        margin-top: 10px;
+    }
+    .about_bg {
+        padding-bottom: 20px;
+    }
+    /* recipe */
+    .about_recipe {
+        width: 100%;
+    }
+    .my_recipe {
+        width: 100%;
+        padding-left: 0;
+    }
+    .about_info {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .recipe_box {
+        display: block;
+    }
+    .cart_box {
+        width: 100%;
+    }
+    .recipe_cart {
+        width: 89%;
+        padding: 10px 10px 20px 10px;
+        margin: 50px 10px;
+        box-shadow: none;
+    }
+    .recipe_title {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .cart_desc {
+        text-align: left;
+    }
+    /* review start */
+    .quites_title {
+        font-size: 30px;
+    }
+    .total_review_box {
+        width: 100%;
+        display: block;
+    }
+    .review_cart {
+        width: 88%;
+        position: relative;
+        padding: 0 10px 15px 0;
+        margin-left: 16px;
+        border-radius: none;
+        box-shadow: none;
+    }
+    .review_cart::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 20px;
+        padding: 5px;
+        background: linear-gradient(45deg, red, orange);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+    }
+    .review_cart:hover {
+        transform: scale(1.1);
+    }
+    .review_img_box {
+        width: 60px;
+        height: 60px;
+    }
+    .review_img_box img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    .reviewer {
+        padding-left: 15px;
+    }
+    .review {
+        padding-left: 15px;
+    }
+    .review-heading {
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .review-desc {
+        text-align: justify;
+    }
+    .icon_box {
+        text-align: center;
+    }
+    /* contact section */
+    .form_section .container {
+        width: 100%;
+    }
+    form {
+        width: 100% !important;
+    }
+    .from_input {
+        width: 83%;
+        display: block;
+        margin: 25px;
+    }
+    .text_area {
+        width: 84%;
+    }
+    /* subscription */
+    .total_sub_box {
+        width: 73%;
+        margin: 30px;
+        border-radius: 10px;
+        padding: 20px;
+        -webkit-box-shadow: 0;
+        box-shadow: 0;
+        display: block;
+        color: whitesmoke;
+    }
+    .sub_box {
+        width: 100%;
+        padding: 10px;
+        height: 100px;
+        text-align: center;
+    }
 }
